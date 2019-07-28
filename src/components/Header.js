@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header>
       <h1>{config.heading}</h1>
-      <p>{config.subHeading}</p>
+      <p id="textleft">{config.subHeading}</p>
       <ul className="actions">
         <li>
           <Scroll type="id" element="first">

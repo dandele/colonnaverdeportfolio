@@ -7,19 +7,19 @@ export default function SideFooter() {
         {config.emailId && (
           <li>
             <h3>Email</h3>
-            <a href={`mailto:${config.emailId}`}>{config.emailId}</a>
+            <a id="textleft" href={`mailto:${config.emailId}`}>{config.emailId}</a>
           </li>
         )}
         {config.phone && (
           <li>
             <h3>Phone</h3>
-            <span>{config.phone}</span>
+            <span id="textleft">{config.phone}</span>
           </li>
         )}
         {config.address && (
           <li>
             <h3>Address</h3>
-            <span>{config.address}</span>
+            <span id="textleft">{config.address}</span>
           </li>
         )}
 

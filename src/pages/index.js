@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/pic01.jpg';
+import heroImage from '../assets/images/Screenshot_4.png';
 import pic2 from '../assets/images/pic02.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
@@ -95,17 +95,17 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>Eccomi, mi presento</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+            <strong>Mi chiamo Daniele D'Amico</strong> ho 25 anni e sono un ragazzo come tanti: in cerca della mia strada.
+             C'è solo un problema Invece di dedicarmi a questa ricerca passo il tempo a fare tante altre cose.</p>
+             <p><strong>E provarne ancora di più!</strong></p>
+            <p>Si tratta di un percorso di vita che, fino ad ora, mi ha portato dall'essere un bambino che voleva fare il giornalista
+            all'essere un ragazzo che crea per lavoro e ci sono persino alcune persone che lo pagano!
+            Questo sito, però, non sarà il mio curriculum vitae, né potrai sapere nel dettaglio i dettagli di questo mio percorso di vita.
+            Sappiamo entrambi perché sei qui e proprio per questo ti consiglio di scorrere la pagina più giuù!
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
@@ -141,7 +141,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>I miei lavori più recenti</h2>
         </header>
         <div className="content">
           <p>
@@ -152,7 +152,7 @@ const IndexPage = () => (
           <section>
             <header>
               <h3>Erat aliquam</h3>
-              <p>
+              <p id="textleft">
                 Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
                 etiam consequat, et lorem adipiscing sed dolor sit amet,
                 consectetur amet do eiusmod tempor incididunt ipsum suspendisse
@@ -167,7 +167,7 @@ const IndexPage = () => (
           <section>
             <header>
               <h3>Nisl consequat</h3>
-              <p>
+              <p id="textleft">
                 Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
                 aliquam sed facilisis ante interdum congue. Integer mollis, nisl
                 amet convallis, porttitor magna ullamcorper, amet mauris. Ut
@@ -184,7 +184,7 @@ const IndexPage = () => (
           <section>
             <header>
               <h3>Lorem gravida</h3>
-              <p>
+              <p id="textleft">
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem
                 feugiat tempus aenean ornare velit lacus, ac varius sed enim
                 lorem ullamcorper dolore. ac varius enim lorem ullamcorper

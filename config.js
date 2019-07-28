@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: "Daniele D'Amico",
+  subHeading: 'Quando racconto ai miei nonni che lavoro faccio loro mi guardano con faccia enigmatica  ',
   // social
   socialLinks: [
     {
@@ -28,7 +28,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  emailId: 'anubhav.srivastava00@gmail.com',
-  phone: '020182389123',
-  address: '11 Ashiyana, Mumbai, India',
+  emailId: 'dandelefreelancer@gmail.com',
+  phone: '3914305287',
+  address: 'Via Salerno, 4, Eboli, SA',
 };
