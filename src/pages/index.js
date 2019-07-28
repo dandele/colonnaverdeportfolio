@@ -99,7 +99,7 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Mi chiamo Daniele D'Amico</strong> ho 25 anni e sono un ragazzo come tanti: in cerca della mia strada.
+            <strong>Mi chiamo emmelle</strong> ho 25 anni e sono un ragazzo come tanti: in cerca della mia strada.
              C'è solo un problema Invece di dedicarmi a questa ricerca passo il tempo a fare tante altre cose.</p>
              <p><strong>E provarne ancora di più!</strong></p>
             <p>Si tratta di un percorso di vita che, fino ad ora, mi ha portato dall'essere un bambino che voleva fare il giornalista
