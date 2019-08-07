@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
 import heroImage from '../assets/images/foto2a.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic2 from '../assets/images/Citazione5.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -115,21 +115,19 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
+          <h2>Che cosa faccio?</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
+            Tra studi e passioni ho accumulato nel tempo un bel po' di <strong>competenze</strong> ed ecco quelle che più penso potrebbero esserti utili.
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li className="icon fa-laptop">Front development</li>
+            <li className="icon fa-bolt">Web design</li>
+            <li className="icon fa-signal">Graphic design</li>
+            <li className="icon fa-gear">UX design</li>
+            <li className="icon fa-map-marker">Copywriting</li>
+            <li className="icon fa-code">Social media marketing</li>
           </ul>
           <p>
             Vehicula ultrices sed ultricies condimentum. Magna sed etiam
