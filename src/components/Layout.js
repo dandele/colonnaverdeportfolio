@@ -48,6 +48,10 @@ class Layout extends Component {
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
+              <script src="https://kit.fontawesome.com/8b0b762f6a.js"/>
+              <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/fontawesome.min.css" />
+              <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.css" />
+              
               <html lang="en" />
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>

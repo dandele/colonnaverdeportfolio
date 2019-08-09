@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/foto2a.jpg';
-import pic2 from '../assets/images/Citazione5.jpg';
+import heroImage from '../assets/images/foto2a.webp';
+import pic2 from '../assets/images/Citazione5.webp';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -99,14 +99,13 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Mi chiamo emmelle</strong> ho 25 anni e sono un ragazzo come tanti: in cerca della mia strada.
+            <strong>Mi chiamo Daniele D'Amico</strong> ho 25 anni e sono un ragazzo come tanti: in cerca della mia strada.
              C'è solo un problema Invece di dedicarmi a questa ricerca passo il tempo a fare tante altre cose.</p>
              <p><strong>E provarne ancora di più!</strong></p>
             <p>Si tratta di un percorso di vita che, fino ad ora, mi ha portato dall'essere un bambino che voleva fare il giornalista
-            all'essere un ragazzo che crea per lavoro e ci sono persino alcune persone che lo pagano!
-            Questo sito, però, non sarà il mio curriculum vitae, né potrai sapere nel dettaglio i dettagli di questo mio percorso di vita.
-            Sappiamo entrambi perché sei qui e proprio per questo ti consiglio di scorrere la pagina più giuù!
-          </p>
+            all'essere un ragazzo che crea per lavoro e ci sono persino alcune persone che lo pagano!</p>
+            <p>Questo sito, però, non sarà il mio curriculum vitae, né potrai sapere nel dettaglio i dettagli di questo mio percorso di vita.
+            Sappiamo entrambi perché sei qui e proprio per questo ti consiglio di scorrere la pagina più giuù!</p>
           <span className="image main">
             <img src={pic2} alt="" />
           </span>
@@ -122,12 +121,13 @@ const IndexPage = () => (
             Tra studi e passioni ho accumulato nel tempo un bel po' di <strong>competenze</strong> ed ecco quelle che più penso potrebbero esserti utili.
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Front development</li>
-            <li className="icon fa-bolt">Web design</li>
-            <li className="icon fa-signal">Graphic design</li>
-            <li className="icon fa-gear">UX design</li>
-            <li className="icon fa-map-marker">Copywriting</li>
-            <li className="icon fa-code">Social media marketing</li>
+            <li className="icon fa-code">Front-end development</li>
+            <li className="icon fa-laptop">Web design</li>
+            <li className="icon fa-paint-brush">Graphic design</li>
+            <li className="icon fa-user">UX design</li>
+            <li className="icon fa-envelope-open">Copywriting</li>
+            
+            <li className="icon fa-share-alt">Social media marketing</li>
           </ul>
           <p>
             Vehicula ultrices sed ultricies condimentum. Magna sed etiam
